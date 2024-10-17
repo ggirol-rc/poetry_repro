@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
-set -x
+set -ex
 
 venv=$(mktemp -d)
 
 virtualenv $venv
 source $venv/bin/activate
 pip install poetry
-pushd lib
+pushd uniquelibname
 poetry install
 popd
 pushd app

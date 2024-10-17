@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-lib = "0.1.0"
+uniquelibname = "0.1.0"
 pydantic-settings = "^2.5.2"
 
 
