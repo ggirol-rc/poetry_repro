@@ -10,6 +10,6 @@ pip install poetry
 pushd uniquelibname
 poetry install
 popd
-pushd app
+pushd uniqueappname
 poetry install
 pip check
